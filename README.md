@@ -1,6 +1,8 @@
+#编译Androidx 版本，更新依赖库为最新版本，无其他修改
 ![logo](https://github.com/gyf-dev/Screenshots/blob/master/ImmersionBar/readme_head.png)
-# ImmersionBar -- android 4.4以上沉浸式实现 
-[![version](https://img.shields.io/badge/version-3.0.0-brightgreen.svg)](https://bintray.com/geyifeng/maven/immersionbar) [![author](https://img.shields.io/badge/author-gyf--dev-orange.svg)](https://github.com/gyf-dev) [![简书](https://img.shields.io/badge/%E7%AE%80%E4%B9%A6-HeLe%E5%B0%8F%E5%AD%90%E6%8B%BD-blue.svg)](https://www.jianshu.com/p/2a884e211a62) [![QQ群](https://img.shields.io/badge/QQ%E7%BE%A4-314360549-red.svg)]()
+# ImmersionBar -- android 4.4以上沉浸式实现
+
+[![](https://jitpack.io/v/SJJ-dot/ImmersionBar.svg)](https://jitpack.io/#SJJ-dot/ImmersionBar)
 
 ## 直接看效果图，建议下载demo体验，最下面有各个版本的效果图
 <img width="300"  src="https://github.com/gyf-dev/Screenshots/blob/master/ImmersionBar/Screenshot_6.0.gif"/>
@@ -8,12 +10,23 @@
 ## 使用 
 > android studio
    ```groovy
-   // 基础依赖包，必须要依赖
-   implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
-   // fragment快速实现（可选）
-   implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
-   // kotlin扩展（可选）
-   implementation 'com.gyf.immersionbar:immersionbar-ktx:3.0.0'
+
+   	allprojects {
+   		repositories {
+   			...
+   			maven { url 'https://jitpack.io' }
+   		}
+   	}
+
+    dependencies {
+        // 基础依赖包，必须要依赖
+        implementation 'com.github.SJJ-dot.ImmersionBar:immersionbar:3.1.0'
+        // fragment快速实现（可选）
+        implementation 'com.github.SJJ-dot.ImmersionBar:immersionbar-components:3.1.0'
+        // kotlin扩展（可选）
+        implementation 'com.github.SJJ-dot.ImmersionBar:immersionbar-ktx:3.1.0'
+    }
+
    ```
 ## 2.x版本使用说明
 #### [点我查看2.x版本使用说明](https://github.com/gyf-dev/ImmersionBar/blob/master/README_2.x.md)
