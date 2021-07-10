@@ -6,7 +6,6 @@ import android.content.Context;
 import androidx.multidex.MultiDex;
 
 import com.gyf.immersionbar.sample.service.NetworkService;
-import com.tencent.bugly.crashreport.CrashReport;
 
 import me.yokeyword.fragmentation.Fragmentation;
 
@@ -30,7 +29,7 @@ public class MyApp extends Application {
         super.onCreate();
         mContext = getApplicationContext();
         // bugly
-        CrashReport.initCrashReport(getApplicationContext(), "31a5f1f394", false);
+//        CrashReport.initCrashReport(getApplicationContext(), "31a5f1f394", false);
         // 网络监听服务
         NetworkService.enqueueWork(this);
         Fragmentation.builder()
