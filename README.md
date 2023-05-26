@@ -2,7 +2,7 @@
 ![logo](https://github.com/gyf-dev/Screenshots/blob/master/ImmersionBar/readme_head.png)
 # ImmersionBar -- android 4.4以上沉浸式实现
 
-[![](https://jitpack.io/v/SJJ-dot/ImmersionBar.svg)](https://jitpack.io/#SJJ-dot/ImmersionBar)
+[![](https://jitpack.io/v/bysqh/ImmersionBar.svg)](https://jitpack.io/#bysqh/ImmersionBar)
 
 ## 直接看效果图，建议下载demo体验，最下面有各个版本的效果图
 <img width="300"  src="https://github.com/gyf-dev/Screenshots/blob/master/ImmersionBar/Screenshot_6.0.gif"/>
